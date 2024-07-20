@@ -35,7 +35,7 @@ function App() {
   return (
     <div>
       <button onClick={onSubmit}>Send</button>
-      {accessToken && <p>Access Token: {accessToken}</p>}
+      
     </div>
   );
 }
